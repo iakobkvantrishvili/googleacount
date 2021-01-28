@@ -1,0 +1,153 @@
+body {
+    margin:0px;
+    padding: 0px;
+}
+
+.create-account-area {
+    width: 668px;
+    height:442px;
+    padding:48px 40px 36px;
+    border: 1px solid #dadce0;
+    margin:150px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.left {
+    width:55%;
+    height: 100%;
+}
+
+.right {
+    width:45%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right div {
+    width:244px;
+    margin-top: 65px;
+}
+
+.right img {
+    width:244px;
+    height:244px;
+    object-fit: cover;
+}
+
+.right p {
+    max-width:244px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 16px;
+    color:#202124;
+    font-weight: 300;
+}
+
+.left h1 {
+    font-family: 'Google Sans',arial,sans-serif;
+    font-weight: 300;
+    color:#202124;
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+.left form {
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left form .joined-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left .joined-inputs input {
+    width:152px;
+    height: 20px;
+    padding:7px 11px;
+    font-size: 14px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+}
+
+.mail-box {
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding:7px 11px;
+    display: flex;
+    align-items: center;
+    margin:22px 0px 5px;
+}
+
+.mail-box input {
+    width:73%;
+    margin-right: 2%;
+    border:none;
+    font-size: 14px;
+}
+
+.mail-box span {
+    width:25%;
+    font-size: 14px;
+    color:#202124;
+    font-weight: 400;
+}
+
+.logic {
+    font-size: 12px;
+    color: rgb(43, 44, 47);
+}
+
+.left form a {
+    display: inline-block;
+    margin:8px 0px;
+    color:#1a73e8;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.joined-passwords {
+    margin: 20px 0px 10px 0px;
+}
+
+.joined-passwords input {
+    width:128px!important;
+}
+
+.joined-passwords i {
+    font-size: 20px;
+    color: #616268;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.form-submit button {
+    width:88px;
+    height:36px;
+    color:#fff;
+    font-size: 15px;
+    border:none;
+    border-radius: 5px;
+    background:#4285f4;
+}
+
+.form-submit a {
+    padding:8px 10px 8px 2px;;
+    transition: 0.5s;
+}
+
+.form-submit a:hover {
+    background: #1a73e809;
+}
